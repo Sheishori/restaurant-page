@@ -55,7 +55,7 @@ body {
 	justify-content: center;
 }
 
-ol, ul {
+ul {
 	list-style: none;
 }
 
@@ -107,11 +107,15 @@ header li {
 	padding: 1rem;
 	margin: 0.2rem;
 	background-color: white;
+	cursor: pointer;
+}
+
+header li:hover {
+	background-color: hsl(0, 0%, 90%);
 }
 
 main {
 	background-color: hsl(41, 38%, 75%);
-
 }
 
 .wrapper {
