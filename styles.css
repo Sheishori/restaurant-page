@@ -55,7 +55,7 @@ body {
 	justify-content: center;
 }
 
-ul {
+header ul {
 	list-style: none;
 }
 
@@ -104,17 +104,14 @@ header ul {
 }
 
 header li {
+  position: relative;
 	padding: 1rem;
 	margin: 0.2rem;
 	background-color: white;
 	cursor: pointer;
 }
 
-li {
-  position: relative;
-}
-
-li::before {
+header li::before {
   content: "";
   position: absolute;
   display: block;
@@ -127,7 +124,7 @@ li::before {
   transition: transform 0.3s ease;
 }
 
-li:hover::before {
+header li:hover::before {
   transform: scaleX(1);
 }
 
