@@ -9,7 +9,6 @@ homeTab();
 
 const info = document.querySelector(".info");
 const menuTabs = document.querySelectorAll("li");
-console.log(menuTabs);
 menuTabs.forEach(tab => {
 	tab.addEventListener("click", () => {
 		const tabName = tab.textContent;
