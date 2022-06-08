@@ -2,7 +2,9 @@ function pageLoad() {
 	//header area
 	const header = document.createElement("header");
 	const banner = document.createElement("div");
-	const headline = document.createElement("h1");
+	const headline = document.createElement("div");
+	const name = document.createElement("h1");
+	const kanji = document.createElement("h2");
 	const logo = document.createElement("img");
 	const pageMenu = document.createElement("ul");
 	const homeButton = document.createElement("a");
@@ -15,14 +17,17 @@ function pageLoad() {
 	const deliveryLi = document.createElement("li");
 	
 	banner.setAttribute("id", "banner");
-	headline.textContent = "Saikou Sushi";
-	logo.src = "https://cdn.pixabay.com/photo/2015/04/07/18/38/sumi-e-711491_960_720.jpg";
+	headline.setAttribute("id", "headline");
+	name.textContent = "Saikou Sushi";
+	kanji.textContent = "最高寿司";
+	logo.src = "./img/logo.jpg";
 	logo.alt = "Logo";
 	homeLi.textContent = "Home";
 	menuLi.textContent = "Menu";
 	contactLi.textContent = "Contact";
 	deliveryLi.textContent = "Delivery";
 	
+	headline.append(name, kanji);
 	banner.append(headline, logo);
 	homeButton.append(homeLi);
 	menuButton.append(menuLi);
@@ -47,10 +52,13 @@ function pageLoad() {
 	// footer area
 	const footer = document.createElement("footer");
 	const copyright = document.createElement("div");
+	const credit = document.createElement("div");
 	
 	copyright.textContent = "ⒸSheishori";
+	credit.classList.add("credit");
+	credit.innerHTML = 'Background - <a href="https://unsplash.com/@rapdelarea">Rap Dela Rea</a>, Bamboo texture - <a href="https://unsplash.com/@denisagati">Denis Agati</a>';
 	
-	footer.appendChild(copyright);
+	footer.append(copyright, credit);
 	
 	// append to body
 	const content = document.querySelector("#content");
