@@ -17,5 +17,6 @@ menuTabs.forEach(tab => {
 		if (tabName === "Menu") menuTab();
 		if (tabName === "Contact") contactTab();
 		if (tabName === "Delivery") deliveryTab();
+		tab.classList.add("active");
 	});
 });

@@ -6,6 +6,11 @@ function deliveryTab() {
 	const phone = document.createElement("li");
 	const uber = document.createElement("li");
 
+	const menuTabs = document.querySelectorAll("li");
+	menuTabs.forEach(tab => {
+		tab.classList.remove("active");
+	});
+
 	delivery.setAttribute("id", "delivery");
 	img.src = "./img/truck-fast.png";
 	img.alt = "fast truck image"

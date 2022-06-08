@@ -3,6 +3,11 @@ function homeTab() {
 	const image = document.createElement("div");
 	const text = document.createElement("div");
 
+	const menuTabs = document.querySelectorAll("li");
+	menuTabs.forEach(tab => {
+		tab.classList.remove("active");
+	});
+
 	home.setAttribute("id", "home");
 	image.classList.add("food-image");
 	text.classList.add("text");
