@@ -6,7 +6,7 @@
 }
 
 .food-image {
-	background: center / cover no-repeat url(./img/home.jpg);
+	background: center / cover no-repeat url(../img/home.jpg);
 	border: 0.5rem solid #b3a179;
 }
 
