@@ -1,4 +1,4 @@
-function menuTab() {
+function deliveryTab() {
 	const delivery = document.createElement("div");
 	delivery.textContent = "delivery";
 
