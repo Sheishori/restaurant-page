@@ -1,7 +1,7 @@
 function deliveryTab() {
 	const delivery = document.createElement("div");
 	const img = document.createElement("img");
-	const order = document.createElement("div");
+	const order = document.createElement("h3");
 	const list = document.createElement("ul");
 	const phone = document.createElement("li");
 	const uber = document.createElement("li");
