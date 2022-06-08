@@ -6,12 +6,15 @@ import { deliveryTab } from "./delivery";
 
 pageLoad();
 homeTab();
+let currentTab = "Home";
 
 const info = document.querySelector(".info");
 const menuTabs = document.querySelectorAll("li");
 menuTabs.forEach(tab => {
 	tab.addEventListener("click", () => {
 		const tabName = tab.textContent;
+		if (tabName === currentTab) return;
+		else currentTab = tabName;
 		info.textContent = "";
 		if (tabName === "Home") homeTab();
 		if (tabName === "Menu") menuTab();
