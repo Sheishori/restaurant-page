@@ -6,4 +6,4 @@ function menuTab() {
 	info.append(delivery);
 };
 
-export { menuTab };
+export { deliveryTab };

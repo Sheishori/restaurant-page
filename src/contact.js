@@ -6,4 +6,4 @@ function menuTab() {
 	info.append(contact);
 };
 
-export { menuTab };
+export { contactTab };
