@@ -1,0 +1,17 @@
+.info {
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	gap: 2rem;
+}
+
+.food-image {
+	background: center / cover no-repeat url(./img/home.jpg);
+	border: 0.5rem solid #b3a179;
+}
+
+.text {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 2rem;
+}

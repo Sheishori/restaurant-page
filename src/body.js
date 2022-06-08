@@ -56,7 +56,7 @@ function pageLoad() {
 	
 	copyright.textContent = "ⒸSheishori";
 	credit.classList.add("credit");
-	credit.innerHTML = 'Background - <a href="https://unsplash.com/@rapdelarea">Rap Dela Rea</a>, Bamboo texture - <a href="https://unsplash.com/@denisagati">Denis Agati</a>';
+	credit.innerHTML = 'Background - <a href="https://unsplash.com/@rapdelarea">Rap Dela Rea</a>, Bamboo texture - <a href="https://unsplash.com/@denisagati">Denis Agati</a>, Sushi - <a href="https://unsplash.com/@mahmoud_fawzy100">Mahmoud Fawzy</a>';
 	
 	footer.append(copyright, credit);
 	
