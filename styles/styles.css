@@ -133,6 +133,12 @@ main {
 	background-color: hsl(41, 38%, 75%);
 }
 
+h3 {
+	font-size: 1.3rem;
+	text-decoration: underline;
+	margin-bottom: 1rem;
+}
+
 .wrapper {
   position: relative;
 	overflow: hidden;
