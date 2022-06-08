@@ -7,14 +7,10 @@ function pageLoad() {
 	const kanji = document.createElement("h2");
 	const logo = document.createElement("img");
 	const pageMenu = document.createElement("ul");
-	const homeButton = document.createElement("a");
-	const homeLi = document.createElement("li");
-	const menuButton = document.createElement("a");
-	const menuLi = document.createElement("li");
-	const contactButton = document.createElement("a");
-	const contactLi = document.createElement("li");
-	const deliveryButton = document.createElement("a");
-	const deliveryLi = document.createElement("li");
+	const homeButton = document.createElement("li");
+	const menuButton = document.createElement("li");
+	const contactButton = document.createElement("li");
+	const deliveryButton = document.createElement("li");
 	
 	banner.setAttribute("id", "banner");
 	headline.setAttribute("id", "headline");
@@ -22,17 +18,13 @@ function pageLoad() {
 	kanji.textContent = "最高寿司";
 	logo.src = "./img/logo.jpg";
 	logo.alt = "Logo";
-	homeLi.textContent = "Home";
-	menuLi.textContent = "Menu";
-	contactLi.textContent = "Contact";
-	deliveryLi.textContent = "Delivery";
+	homeButton.textContent = "Home";
+	menuButton.textContent = "Menu";
+	contactButton.textContent = "Contact";
+	deliveryButton.textContent = "Delivery";
 	
 	headline.append(name, kanji);
 	banner.append(headline, logo);
-	homeButton.append(homeLi);
-	menuButton.append(menuLi);
-	contactButton.append(contactLi);
-	deliveryButton.append(deliveryLi);
 	pageMenu.append(homeButton, menuButton, contactButton, deliveryButton);
 	header.append(banner, pageMenu);
 	
