@@ -1,8 +1,8 @@
 import { pageLoad } from "./body";
-import { homeTab } from "./home";
-import { menuTab } from "./menu";
-import { contactTab } from "./contact";
-import { deliveryTab } from "./delivery";
+import { homeTab } from "./pages/home";
+import { menuTab } from "./pages/menu";
+import { contactTab } from "./pages/contact";
+import { deliveryTab } from "./pages/delivery";
 import './styles/styles.css';
 import './styles/home.css';
 import './styles/menu.css';

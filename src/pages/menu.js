@@ -1,11 +1,11 @@
-import fmaki from './img/fmaki.jpg'
-import vmaki from './img/vmaki.jpg'
-import snigiri from './img/snigiri.jpg'
-import wnigiri from './img/wnigiri.jpg'
-import futomaki from './img/futomaki.png'
-import sashimi from './img/sashimi.jpg'
-import sets from './img/sets.jpg'
-import ramen from './img/ramen.png'
+import fmaki from '../img/fmaki.jpg'
+import vmaki from '../img/vmaki.jpg'
+import snigiri from '../img/snigiri.jpg'
+import wnigiri from '../img/wnigiri.jpg'
+import futomaki from '../img/futomaki.png'
+import sashimi from '../img/sashimi.jpg'
+import sets from '../img/sets.jpg'
+import ramen from '../img/ramen.png'
 
 function menuTab() {
 	const menu = document.createElement("div");

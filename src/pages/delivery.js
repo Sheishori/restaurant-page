@@ -1,4 +1,4 @@
-import truck from './img/truck-fast.png'
+import truck from '../img/truck-fast.png'
 
 function deliveryTab() {
 	const delivery = document.createElement("div");
