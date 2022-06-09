@@ -20,6 +20,7 @@ function pageLoad() {
 	kanji.textContent = "最高寿司";
 	logo.src = logoimg;
 	logo.alt = "Logo";
+	homeButton.classList.add("active");
 	homeButton.textContent = "Home";
 	menuButton.textContent = "Menu";
 	contactButton.textContent = "Contact";

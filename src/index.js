@@ -21,6 +21,9 @@ menuTabs.forEach(tab => {
 		if (tabName === currentTab) return;
 		else currentTab = tabName;
 		info.textContent = "";
+		menuTabs.forEach(tab => {
+			tab.classList.remove("active");
+		});
 		if (tabName === "Home") homeTab();
 		if (tabName === "Menu") menuTab();
 		if (tabName === "Contact") contactTab();

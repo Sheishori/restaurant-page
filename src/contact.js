@@ -14,11 +14,6 @@ function contactTab() {
 	const address = document.createElement("p");
 	const map = document.createElement("iframe");
 
-	const menuTabs = document.querySelectorAll("li");
-	menuTabs.forEach(tab => {
-		tab.classList.remove("active");
-	});
-
 	contact.setAttribute("id", "contact");
 	title.textContent = "Contact us:";
 	manager.textContent = "Manager";

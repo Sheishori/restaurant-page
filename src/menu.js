@@ -27,11 +27,6 @@ function menuTab() {
 		list.append(itemli);
 	};
 
-	const menuTabs = document.querySelectorAll("li");
-	menuTabs.forEach(tab => {
-		tab.classList.remove("active");
-	});
-
 	menu.setAttribute("id", "menu");
 	title.textContent = "Menu";
 	menuItem("Fish Hosomaki", fmaki);
