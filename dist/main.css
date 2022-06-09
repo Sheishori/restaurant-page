@@ -43,7 +43,7 @@ body {
 	line-height: 1;
 	font-family: 'Nanum Gothic', sans-serif;
 	background-color: hsl(41, 38%, 85%);
-	background: center / cover no-repeat url(cb85ef04e45438400f8d.jpg);
+	background: center / cover no-repeat url(./img/cb85ef04e45438400f8dd3b8b022025f.jpg);
 }
 
 #content {
@@ -151,7 +151,7 @@ h3 {
 	position: absolute;
   width: 100%;
   height: 100%;
-	background: center / cover no-repeat url(f3277cfd9fe53aeb80a9.jpg);
+	background: center / cover no-repeat url(./img/f3277cfd9fe53aeb80a9420bff5c25cd.jpg);
 	opacity: 0.2;
 }
 
@@ -188,7 +188,7 @@ footer {
 }
 
 .food-image {
-	background: center / cover no-repeat url(4ba1a2a3a245a4803d4d.jpg);
+	background: center / cover no-repeat url(./img/4ba1a2a3a245a4803d4dce2a54d93b54.jpg);
 	border: 0.5rem solid #b3a179;
 }
 

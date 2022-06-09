@@ -21,13 +21,17 @@ module.exports = {
       {
         test: /\.css$/i,
         use: [
-          MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: { publicPath: '.' }
+          },
           'css-loader'
         ],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        test: /\.(png|jpg|jpeg|gif)$/i,
+        loader: 'file-loader',
+        options: { outputPath: '/img' }
       },
     ],
   },
