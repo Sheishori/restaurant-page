@@ -1,6 +1,8 @@
+import truck from './img/truck-fast.png'
+
 function deliveryTab() {
 	const delivery = document.createElement("div");
-	const img = document.createElement("img");
+	const img = new Image();
 	const order = document.createElement("h3");
 	const list = document.createElement("ul");
 	const phone = document.createElement("li");
@@ -12,7 +14,7 @@ function deliveryTab() {
 	});
 
 	delivery.setAttribute("id", "delivery");
-	img.src = "./img/truck-fast.png";
+	img.src = truck;
 	img.alt = "fast truck image"
 	order.textContent = "Order with delivery by:";
 	phone.textContent = "Phone: +0 123 456 789";

@@ -1,3 +1,5 @@
+import logoimg from './img/logo.jpg'
+
 function pageLoad() {
 	//header area
 	const header = document.createElement("header");
@@ -5,7 +7,7 @@ function pageLoad() {
 	const headline = document.createElement("div");
 	const name = document.createElement("h1");
 	const kanji = document.createElement("h2");
-	const logo = document.createElement("img");
+	const logo = new Image();
 	const pageMenu = document.createElement("ul");
 	const homeButton = document.createElement("li");
 	const menuButton = document.createElement("li");
@@ -16,7 +18,7 @@ function pageLoad() {
 	headline.setAttribute("id", "headline");
 	name.textContent = "Saikou Sushi";
 	kanji.textContent = "最高寿司";
-	logo.src = "./img/logo.jpg";
+	logo.src = logoimg;
 	logo.alt = "Logo";
 	homeButton.textContent = "Home";
 	menuButton.textContent = "Menu";

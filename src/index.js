@@ -3,6 +3,11 @@ import { homeTab } from "./home";
 import { menuTab } from "./menu";
 import { contactTab } from "./contact";
 import { deliveryTab } from "./delivery";
+import './styles/styles.css';
+import './styles/home.css';
+import './styles/menu.css';
+import './styles/contact.css';
+import './styles/delivery.css';
 
 pageLoad();
 homeTab();

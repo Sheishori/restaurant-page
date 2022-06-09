@@ -1,3 +1,12 @@
+import fmaki from './img/fmaki.jpg'
+import vmaki from './img/vmaki.jpg'
+import snigiri from './img/snigiri.jpg'
+import wnigiri from './img/wnigiri.jpg'
+import futomaki from './img/futomaki.png'
+import sashimi from './img/sashimi.jpg'
+import sets from './img/sets.jpg'
+import ramen from './img/ramen.png'
+
 function menuTab() {
 	const menu = document.createElement("div");
 	const title = document.createElement("h3");
@@ -5,7 +14,7 @@ function menuTab() {
 	function menuItem(name, imgSrc) {
 		const itemli = document.createElement("li");
 		const itemImgWrapper = document.createElement("div");
-		const itemImg = document.createElement("img");
+		const itemImg = new Image();
 		const itemName = document.createElement("div");
 	
 		itemImgWrapper.classList.add("img");
@@ -25,14 +34,14 @@ function menuTab() {
 
 	menu.setAttribute("id", "menu");
 	title.textContent = "Menu";
-	menuItem("Fish Hosomaki", "./img/fmaki.jpg");
-	menuItem("Vegetable Hosomaki", "./img/vmaki.jpg");
-	menuItem("Salmon Nigiri", "./img/snigiri.jpg");
-	menuItem("Shiromi Nigiri", "./img/wnigiri.jpg");
-	menuItem("Futomaki", "./img/futomaki.png");
-	menuItem("Sashimi", "./img/sashimi.jpg");
-	menuItem("Assorted Sets", "./img/sets.jpg");
-	menuItem("Ramen", "./img/ramen.png");
+	menuItem("Fish Hosomaki", fmaki);
+	menuItem("Vegetable Hosomaki", vmaki);
+	menuItem("Salmon Nigiri", snigiri);
+	menuItem("Shiromi Nigiri", wnigiri);
+	menuItem("Futomaki", futomaki);
+	menuItem("Sashimi", sashimi);
+	menuItem("Assorted Sets", sets);
+	menuItem("Ramen", ramen);
 
 	menu.append(title, list);
 	const info = document.querySelector(".info");
