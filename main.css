@@ -49,7 +49,7 @@ body {
 #content {
 	min-height: 100vh;
 	display: grid;
-	grid-template-columns: 900px;
+	grid-template-columns: 57rem;
 	grid-template-rows: auto 1fr auto;
 	justify-content: center;
 }
@@ -115,7 +115,7 @@ header li::before {
   position: absolute;
   display: block;
   width: 100%;
-  height: 2px;
+  height: 0.1rem;
   bottom: 0;
   left: 0;
   background-color: #000;
@@ -143,8 +143,8 @@ h3 {
 	overflow: hidden;
   width: 100%;
   height: 100%;
-	border-left: 5px solid #b3a179;
-	border-right: 5px solid #b3a179;
+	border-left: 0.4rem solid #b3a179;
+	border-right: 0.4rem solid #b3a179;
 }
 
 .bamboo {
@@ -169,7 +169,7 @@ footer {
 	padding: 0.8rem;
 	text-align: center;
 	background-color: hsl(41, 38%, 85%);
-	border: 5px solid #b3a179;
+	border: 0.4rem solid #b3a179;
 	border-top: 0;
 }
 
@@ -265,7 +265,7 @@ footer {
 }
 
 iframe {
-	min-height: 200px;
+	min-height: 15rem;
 	flex: 1;
 	align-self: stretch;
 }
