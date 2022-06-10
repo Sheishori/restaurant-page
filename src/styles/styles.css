@@ -50,7 +50,7 @@ body {
 #content {
 	min-height: 100vh;
 	display: grid;
-	grid-template-columns: 57rem;
+	grid-template-columns: clamp(35rem, 80vw, 57rem);
 	grid-template-rows: auto 1fr auto;
 	justify-content: center;
 }
