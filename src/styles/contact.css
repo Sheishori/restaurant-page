@@ -28,7 +28,7 @@
 }
 
 iframe {
-	min-height: 200px;
+	min-height: 15rem;
 	flex: 1;
 	align-self: stretch;
 }
