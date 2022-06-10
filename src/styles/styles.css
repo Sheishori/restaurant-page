@@ -44,7 +44,7 @@ body {
 	line-height: 1;
 	font-family: 'Nanum Gothic', sans-serif;
 	background-color: hsl(41, 38%, 85%);
-	background: center / cover no-repeat url('~../img/background.jpg');
+	background: top / 150rem no-repeat url('~../img/background.jpg');
 }
 
 #content {

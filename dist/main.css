@@ -43,7 +43,7 @@ body {
 	line-height: 1;
 	font-family: 'Nanum Gothic', sans-serif;
 	background-color: hsl(41, 38%, 85%);
-	background: center / cover no-repeat url(./img/cb85ef04e45438400f8dd3b8b022025f.jpg);
+	background: top / 150rem no-repeat url(./img/cb85ef04e45438400f8dd3b8b022025f.jpg);
 }
 
 #content {
